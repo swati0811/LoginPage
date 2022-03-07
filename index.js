@@ -21,6 +21,7 @@ function signOut() {
 function statusChangeCallback(response) {  // Called with the results from FB.getLoginStatus().
     if (response.status === 'connected') {   // Logged into your webpage and Facebook.
       testAPI();  
+      $(".g-signin2").css("display", "none");
         
     } else {                                 // Not logged into your webpage or we are unable to tell.
       document.getElementById('status').innerHTML = 'Please log ' +
