@@ -13,6 +13,8 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0&appId=300248888872360&autoLogAppEvents=1" nonce="DdzdXzcH"></script>
     
     <div class="heading">
         <img class="logo" alt="logo" src="logo.jpg">
@@ -30,7 +32,7 @@
           <p id="email"></p>
           <button type="button" class="btn btn-danger" onclick="signOut();">Sign Out</button>
       </div>
-      
+      <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
       <!-- The JS SDK Login Button -->
       
       <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
