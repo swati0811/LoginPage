@@ -1,0 +1,76 @@
+body
+{
+    background-color: #03262e;
+    color: #ffff;
+
+
+}
+p
+{
+    font-size: larger;
+}
+.logo
+{
+    width: 70px;
+    height: 70px;
+}
+
+.heading
+{
+    text-align: center;
+    margin-top: 7%;
+    padding: 0 33.33%;
+}    
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 16.66%;
+    padding: 0%;
+  }
+
+  .row
+  {
+    margin-bottom: 40px;
+    margin-top: 80px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .text-center
+  {
+    padding: 0 33.33%;
+    width: 1344.674px;
+    margin-top: 50px;
+
+  }
+
+  .btn
+  {
+    height: 48px;
+    width: 332px;
+  }
+
+  .btn-light
+  {
+    margin-bottom: 1rem;
+  }
+
+  .data {
+    display: none;
+}
+
+.g-signin2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
