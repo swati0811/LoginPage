@@ -2,9 +2,8 @@ body
 {
     background-color: #03262e;
     color: #ffff;
-
-
 }
+
 p
 {
     font-size: larger;
@@ -68,12 +67,8 @@ p
 }
 
 .row2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-    height: 48px;
-    width: 332px;
+    padding: 0 33.33%;
+    width: 1344.674px;
+    margin-top: 50px;
 }
 
