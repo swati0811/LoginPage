@@ -56,8 +56,11 @@ p
     margin-left: -50px;
 }
 
-#center {
-  margin: 0 auto;
-  text-align: center;
+.fb-login-button
+{
+    left: 0px;
+    right: 0px;
+    margin-left: 660px;
+    top: 70px;
 }
 
