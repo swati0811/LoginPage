@@ -14,6 +14,7 @@ function signOut() {
         alert("You have been signed out successfully");
         $(".data").css("display", "none");
         $(".g-signin2").css("display", "block");
+         $(".fb-login-button").css("display", "block");
     });
 }
 
@@ -50,9 +51,8 @@ function statusChangeCallback(response) {  // Called with the results from FB.ge
   };
  
   function testAPI() {                      // Testing Graph API after login.  See statusChangeCallback() for when this call is made.
-    console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
-      alert('Successful login for: ' + response.name);
+      alert("Logged in Successfully" + response.name);
         $(".g-signin2").css("display", "none");
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
