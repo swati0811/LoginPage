@@ -51,10 +51,10 @@ function statusChangeCallback(response) {  // Called with the results from FB.ge
   };
  
   function testAPI() {                      // Testing Graph API after login.  See statusChangeCallback() for when this call is made.
+    alert("Welcome!  Fetching your information.... ");
     FB.api('/me', function(response) {
-      alert("Logged in Successfully" + response.name);
-        $(".g-signin2").css("display", "none");
-      document.getElementById('status').innerHTML =
-        'Thanks for logging in, ' + response.name + '!';
+      alert("Successful logged in");
     });
   }
+
+ 
