@@ -1,19 +1,19 @@
 function onSignIn(googleUser) {
-    var profile = googleUser.getBasicProfile();
+    var profile = googleUser.getBasicProfile(); //get data of the user after logging in
     $("#name").text(profile.getName());
     $("#email").text(profile.getEmail());
     $("#image").attr('src', profile.getImageUrl());
     $(".data").css("display", "block");
-    $(".g-signin2").css("display", "none");
-     $(".fb-login-button").css("display", "none");
+    $(".g-signin2").css("display", "none");    //hiding the google sign in button
+     $(".fb-login-button").css("display", "none");   //hiding the facebook sign in button
 }
 
 function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
-        alert("You have been signed out successfully");
+        alert("You have been signed out successfully"); //alert after signing out
         $(".data").css("display", "none");
-        $(".g-signin2").css("display", "block");
+        $(".g-signin2").css("display", "block");       //displaying the hidden button
          $(".fb-login-button").css("display", "block");
     });
 }
