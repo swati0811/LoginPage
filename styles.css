@@ -8,6 +8,7 @@ p
 {
     font-size: larger;
 }
+
 .logo
 {
     width: 70px;
@@ -43,16 +44,31 @@ p
     display: table;
   }
 
-  
-
-  .data {
-    display: none;
-}
 
 .row2 {
     padding: 0 33.33%;
     width: 1344.674px;
     margin-top: 50px;
-    align-content: center
+    align-content: center;
+}
+
+.data {
+    display: none;
+}
+
+.g-signin2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
 }
 
