@@ -43,24 +43,7 @@ p
     display: table;
   }
 
-  .text-center
-  {
-    padding: 0 33.33%;
-    width: 1344.674px;
-    margin-top: 50px;
-
-  }
-
-  .btn
-  {
-    height: 48px;
-    width: 332px;
-  }
-
-  .btn-light
-  {
-    margin-bottom: 1rem;
-  }
+  
 
   .data {
     display: none;
