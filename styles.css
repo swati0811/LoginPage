@@ -67,7 +67,7 @@ p
     display: none;
 }
 
-.g-signin2 {
+.row2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -75,8 +75,3 @@ p
     margin-left: -50px;
 }
 
-.fb-login-button
-{
-  position: absolute;
-  text-align: center;
-}
