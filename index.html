@@ -12,7 +12,8 @@
 
 <body>
   <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0&appId=300248888872360&autoLogAppEvents=1" nonce="DdzdXzcH"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0&appId=300248888872360&autoLogAppEvents=1" nonce="jLjUd6wf"></script>
     
     <div class="heading">
         <img class="logo" alt="logo" src="logo.jpg">
@@ -31,9 +32,8 @@
           <p id="email"></p>
           <button type="button" class="btn btn-danger" onclick="signOut();">Sign Out</button>
       </div>
-      <div  class="fb-login-button" data-width="" data-size="large"  data-button-type="continue_with" data-layout="default" 
-            data-auto-logout-link="false" data-use-continue-as="false">
-      </div>
+     <div class="fb-login-button" data-width="" data-size="large" data-button-type="login_with" data-layout="default" 
+          data-auto-logout-link="true" data-use-continue-as="false"></div>
     
       <!-- Load the JS SDK asynchronously -->
       <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
