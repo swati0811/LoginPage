@@ -54,8 +54,8 @@ p
     left: 50%;
     margin-top: -50px;
     margin-left: -50px;
-  display: inline-block;
-      
+    color: #fff;
+    width: 150px
 }
 
 .fb-login-button
