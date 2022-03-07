@@ -54,6 +54,12 @@ p
     left: 50%;
     margin-top: -50px;
     margin-left: -50px;
+    display: inline-block;
+      vertical-align: middle;
+      padding-left: 42px;
+      padding-right: 42px;
+      font-size: 14px;
+      font-weight: bold;
 }
 
 .fb-login-button
