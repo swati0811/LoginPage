@@ -46,6 +46,7 @@ p
 
 .data {
     display: none;
+    margin-left:20px;
 }
 
 .g-signin2 {
