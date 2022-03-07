@@ -64,11 +64,9 @@ p
     margin-left: -50px;
 }
 
-.flex-parent {
-  display: flex;
-}
-
-.jc-center {
-  justify-content: center;
+.text-center {
+    width: 1344.67px;
+    margin-top: 50px;
+    padding: 0px 33.33%;
 }
 
