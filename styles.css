@@ -56,5 +56,8 @@ p
     margin-left: -50px;
 }
 
-
+#center {
+  margin: 0 auto;
+  text-align: center;
+}
 
