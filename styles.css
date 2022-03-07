@@ -44,14 +44,6 @@ p
     display: table;
   }
 
-
-.row2 {
-    padding: 0 33.33%;
-    width: 1344.674px;
-    margin-top: 50px;
-    align-content: center;
-}
-
 .data {
     display: none;
 }
@@ -64,9 +56,5 @@ p
     margin-left: -50px;
 }
 
-.text-center {
-    width: 1344.67px;
-    margin-top: 50px;
-    padding: 0px 33.33%;
-}
+
 
